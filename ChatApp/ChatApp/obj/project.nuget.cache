@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vyVP1eVd1Dw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\i.oezsevim\\Desktop\\Projekte\\Repository\\ChatApp\\ChatApp\\ChatApp\\ChatApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\i.oezsevim\\.nuget\\packages\\wpf-ui\\3.0.5\\wpf-ui.3.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
