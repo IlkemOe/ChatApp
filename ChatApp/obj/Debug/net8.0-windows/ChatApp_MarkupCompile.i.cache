@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\i.oezsevim\Desktop\Projekte\Repository\ChatApp\ChatApp\ChatApp\obj\Debug\net8.0-windows\
+C:\Users\i.oezsevim\Desktop\Projekte\Repository\ChatApp\ChatApp\obj\Debug\net8.0-windows\
 ChatApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\i.oezsevim\Desktop\Projekte\Repository\ChatApp\ChatApp\ChatApp\App.xaml
-2-1290416534
+C:\Users\i.oezsevim\Desktop\Projekte\Repository\ChatApp\ChatApp\App.xaml
+3488788052
 
-6-1706415913
+9-1689766027
 199205450465
-Assets\icons.xaml;MainWindow.xaml;
+Assets\icons.xaml;CustomControls\StatusThumbs.xaml;MainWindow.xaml;
 
-True
+False
 

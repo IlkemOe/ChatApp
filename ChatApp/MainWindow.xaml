@@ -71,7 +71,7 @@
             </Border>
 
             <!--Kontakt Chatliste-->
-            <Grid Grid.Row="1" MaxWidth="406">
+            <Grid Grid.Row="1" MinWidth="406">
                 <Grid.RowDefinitions>
 
                     <!--OptionenBar-->
@@ -127,6 +127,34 @@
                         Content="{StaticResource more}"
                         Style="{StaticResource ToggleIconButtonStyle}"/>
                 </Grid>
+                
+                <!--#region Suchbox-->
+                <!--ToDo: Suchbox öffnen trigger hinzufügen-->
+                <Border 
+                    Background="#dce1de"
+                    CornerRadius="15"     
+                    Grid.Row="1"
+                    Margin="20"
+                    Height="50"
+                    x:Name="searchBoxBorder"
+                    FocusManager.FocusedElement="{Binding ElementName=Suchbereich}">
+
+                    <!--FocusManager.FocusedElement="{Binding ElementName=Suchbereich}"=> focus auf textbox setzen wenn rand fokussiert wird-->
+                    <TextBox
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Name="Suchbereich"
+                        Padding="12,0"
+                        Text="Suchen..."
+                        VerticalContentAlignment="Center"
+                        VerticalAlignment="Stretch"/>
+
+                </Border>
+                <!--#endbereich-->
+                
+                <!--#region Status Thumbnails-->
+                
+                <!--#endregion-->
             </Grid>
         </Grid>
     </Border>
